@@ -1,0 +1,76 @@
+#mensajemodal{      
+cursor:move;
+position: absolute;
+/*nos posicionamos en el centro del navegador*/
+top: 380px;
+left: 660px;
+margin: 0 auto;
+/*determinamos una anchura*/
+min-width:400px;
+width: auto !important; /*solo IE*/
+width:400px;
+/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+margin-left:-200px;
+/*determinamos una altura*/
+min-height:200px;
+/*indicamos que el margen superior, es la mitad de la altura*/
+margin-top:-150px;
+border:1px solid #808080;
+padding:0px;
+background-color:#ffffff;
+		
+/*Sombra y div redondeado*/
+		-moz-border-radius:10px 10px 10px 10px;
+		-webkit-border-radius: 10px 10px 10px 10px;
+		border-radius: 10px 10px 10px 10px;
+/*cuadro con sombra box-shadow*/
+                box-shadow: 0 0 14px 1px #888888;
+/*para navegadores basados en Mozilla*/
+                -moz-box-shadow: 0 0 14px 1px #888888;
+/*para navegadores basados en Webkit*/
+                -webkit-box-shadow: 0 0 14px 1px #888888;
+}
+
+#mensajemodal td.titulo{
+background-color:#7cba7c;
+font-size:18px;
+font-family:arial,helvetica;
+color:#ffffff;
+/*Td redondeado*/
+		-moz-border-radius:10px 10px 0px 0px;
+		-webkit-border-radius: 10px 10px 0px 0px;
+		border-radius: 10px 10px 0px 0px;
+}
+
+#mensajemodal td.contenido{
+font-family:arial,helvetica;
+font-size:14px;
+color:#888888;
+padding:0px 10px 0px 10px;
+text-align:justify;
+}
+
+#mensajemodal input.aceptar{
+cursor:hand; /* Ie */
+font-size:16px;
+background-color:#7cba7c;
+color:#ffffff;
+width:100px;
+/*Sombra y div redondeado*/
+		-moz-border-radius:8px 8px 8px 8px;
+		-webkit-border-radius: 8px 8px 8px 8px;
+		border-radius: 8px 8px 8px 8px;
+/*cuadro con sombra box-shadow*/
+                box-shadow: 1px 1px 1px 1px #c4c4c4;
+/*para navegadores basados en Mozilla*/
+                -moz-box-shadow: 1px 1px 1px 1px #c4c4c4;
+/*para navegadores basados en Webkit*/
+                -webkit-box-shadow: 1px 1px 1px 1px #c4c4c4;
+}
+
+#mensajemodal input.aceptar:hover{
+cursor:pointer;
+color:#dae5da;
+background-color:#538c53;
+}
+
