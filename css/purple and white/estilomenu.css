@@ -1,0 +1,33 @@
+/*--
+
+copyright © 2013 parablan - Hector Alejandro Parada Blanco
+
+parablanNews es un sistema libre de articulos, el cual 
+puede ser modificado y redistribuido como cita la GPL v2. 
+
+--*/
+
+
+#menu a{
+text-decoration:none;
+color:#ffffff;
+font-family:arial,helvetica;
+font-weight:bold;
+font-size:20px;
+}
+
+#menu a:hover{
+text-decoration:underline;
+color:#ff56c5;
+cursor:pointer;
+}
+
+#menu a.inicio{
+text-decoration:underline;
+color:#ff56c5;
+cursor:pointer;
+}
+
+#menu td{
+height:4em;
+}

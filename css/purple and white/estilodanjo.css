@@ -1,0 +1,107 @@
+/*--
+
+copyright © 2013 parablan - Hector Alejandro Parada Blanco
+
+parablanNews es un sistema libre de articulos, el cual 
+puede ser modificado y redistribuido como cita la GPL v2. 
+
+--*/
+
+
+body{
+margin:0;
+padding:0;
+width:100%;
+font-family:'Trebuchet MS', sans-serif;
+text-align:center;/*para IE*/
+background-attachment: fixed; 
+background-image:url("/parablanNews/css/purple and white/imagenes/fondo.jpg");
+}
+
+#wrapper{
+border-color:black;
+/*width:70em;*/
+margin-left: auto;
+margin-right: auto;
+left:0; right:0;
+width:100%;
+}
+
+#header{
+/* */
+}
+
+#banner{
+float:left;
+text-align:left;
+width:20em;
+height:6em;
+background-image:url("/parablanNews/css/purple and white/imagenes/fondo.jpg");
+}
+
+#menu{
+left:22em;
+float:right;
+text-align:right;
+width:44em;
+height:4em;
+position:absolute;
+background-image:url("/parablanNews/css/purple and white/imagenes/fondo.jpg");
+padding:0 0 0 0;
+}
+
+#buscar{
+left:40em;
+float:right;
+text-align:right;
+width:40em;
+position:absolute;
+
+background-image:url("/parablanNews/css/purple and white/imagenes/fondo.jpg");
+}
+
+
+#columnizq{
+left:22em;
+margin-left: auto;
+margin-right: auto;
+left:0; right:0;
+width:70em;
+
+clear : both;
+font-family:Arial, Helvetica, sans-serif;
+background-color:#ffffff;
+text-align:justify;
+padding:54px;
+color:#848484;
+/*bordes de DIV redondeados*/
+		-moz-border-radius:30px 30px 0 0;
+		-webkit-border-radius: 30px 30px 0 0;
+		border-radius: 30px 30px 0 0;
+}
+
+#columnder{
+margin-left: auto;
+margin-right: auto;
+left:0; right:0;
+width:70em;
+clear : both;
+font-family:Arial, Helvetica, sans-serif;
+background-image:url("/parablanNews/css/purple and white/imagenes/desenfoque.png");
+text-align:justify;
+padding:10px 54px;
+color:#848484;
+}
+
+#footer{
+margin-left: auto;
+margin-right: auto;
+left:0; right:0;
+width:70em;
+clear : both;
+font-family:Arial, Helvetica, sans-serif;
+background-color:#ffffff;
+text-align:justify;
+padding:10px 54px;
+color:#848484;
+}

@@ -1,0 +1,36 @@
+/*--
+
+copyright © 2013 parablan - Hector Alejandro Parada Blanco
+
+parablanNews es un sistema libre de articulos, el cual 
+puede ser modificado y redistribuido como cita la GPL v2. 
+
+--*/
+
+
+#menu a{
+text-decoration:none;
+color:#afb191;
+font-family:arial,helvetica;
+font-weight:bold;
+font-size:24px;
+}
+
+#menu a.inicio{
+color:#ffffff;
+}
+
+#menu a:hover, #menu td:hover{
+cursor:pointer;
+color:#ffffff;
+background-color:#ffb24e;
+}
+
+#menu td.inicio{
+background-color:#ff9000;
+}
+
+#menu td{
+border:2px solid #e7c9a3;
+background-image:url(/parablanNews/css/claro/imagenes/fondologo.png);
+}

@@ -1,0 +1,48 @@
+/*--
+
+copyright © 2013 parablan - Hector Alejandro Parada Blanco
+
+parablanNews es un sistema libre de articulos, el cual 
+puede ser modificado y redistribuido como cita la GPL v2. 
+
+--*/
+
+
+#columnizq h4{
+font-size:12pt;
+}
+
+#columnizq h3{
+font-size:8pt;
+color:#f075f8;
+}
+
+#columnizq h2{
+font-size:13pt;
+color:#7b1082;
+}
+
+#columnizq p{
+font-size:10pt;
+line-height:18pt;
+color:#333333;
+}
+
+#columnizq hr{
+width:90%;
+}
+
+#columnizq a{
+text-decoration:none;
+color:#7b1082;
+}
+
+#columnizq a:hover{
+text-decoration:underline;
+color:#ff56c5;
+}
+
+#columnizq img{
+display: block;
+margin: auto;
+}
